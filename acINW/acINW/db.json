@@ -1,0 +1,44 @@
+{
+    "produtos":[
+        {
+            "id": 1,
+            "nome": "Pop it lgbt",
+            "tipo": "Anti-Stress",
+            "classificacaoIndicativa": 3,
+            "cor": "lgbt",
+            "preco": "R$38,99"
+        },
+        {
+            "id": 2,
+            "nome": "Annabele",
+            "tipo": "Possuído",
+            "classificacaoIndicativa": 666,
+            "cor": "Demonio",
+            "preco": "R$85,00"
+        },
+        {
+            "id": 3,
+            "nome": "Pinguim Fudido do Toy Story",
+            "tipo": "Abandonado",
+            "classificacaoIndicativa": 80082,
+            "cor": "Poeira",
+            "preco": "R$30,00"
+        },
+        {
+            "id": 4,
+            "nome": "Chico Malo(Menino mal)",
+            "tipo": "BadBoy",
+            "classificacaoIndicativa": 69,
+            "cor": "LANGUAGE",
+            "preco": "R$77,90"
+        },
+        {
+            "id": 5,
+            "nome": "Richarlyson",
+            "tipo": "bandido, desenhista, corrupto, ovo",
+            "classificacaoIndicativa": 245,
+            "cor": "Lindo",
+            "preco": "R$9999,99"
+        }
+    ]
+}
