@@ -8,23 +8,23 @@ console.log("COD\tPRODUTOS\tPREÇOS")
 for(let i=0; i<codigos.length; i++){
     console.log(codigos[i]+'\t'+produtos[i]+'\t'+precos[i])
 }
-
+console.log("Digitação de valores")
 for(let i=0; i<codigos.length; i++){
     console.log(codigos[i]+'\t'+produtos[i])
-    precos = leia("Digite o valor do produto: ")
+    precos[i] = leia("Digite o valor do produto: ")
 
 }
-
 console.log("COD\tPRODUTOS\tPREÇOS")
 for(let i=0; i<codigos.length; i++){
     console.log(codigos[i]+'\t'+produtos[i]+'\t'+precos[i])
 }
-
-console.log("COD\tPRODUTOS\tPREÇOS")
+console.log("ALTERAÇÃO DE DADOS")
 let codigo = leia("Digite o codigo do produto que deseja trocar o nome: ")
 for(let i=0; i<codigos.length; i++){
-    console.log("Nome atual do produto: "+produtos[i])
-    produtos[1] = leia("Digite o novo nome: ")
+    if(codigo==codigos[i]){
+        console.log("Nome atual do produto: "+produtos[i])
+        produtos[i] = leia("Digite o novo nome: ")
+    }
 }
 
 console.log("COD\tPRODUTOS\tPREÇOS")
